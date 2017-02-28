@@ -7,6 +7,10 @@ set -e
 
 echo "Started deploying"
 
+git add .
+git commit -m "generated files on `date +'%Y-%m-%d %H:%M:%S'`";
+git push -u origin develop
+
 # Checkout gh-pages branch.
 if [ `git branch | grep master` ]
 then
