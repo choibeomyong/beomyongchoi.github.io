@@ -7,3 +7,6 @@
 /_posts_demo/*
 node_modules
 package-lock.json
+_assets/yarn
+yarn.lock
+Gemfile.lock
