@@ -5,3 +5,5 @@
 /_site/*
 /_assets/bower/*
 /_posts_demo/*
+node_modules
+package-lock.json
